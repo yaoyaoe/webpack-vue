@@ -1,13 +1,12 @@
 <template>
-  <div class="" @click="goto">
-    我是关于页2
-    <router-link to="/home/news">新闻</router-link>
+  <div class="">
+    新闻中心2
   </div>
 </template>
 
 <script>
 export default {
-  name: 'About',
+  name: 'News',
   props: {
 
   },
@@ -19,9 +18,7 @@ export default {
     }
   },
   methods:{
-    goto(){
-      this.$router.push('/home/news')
-    }
+
   },
   mounted() {
 
