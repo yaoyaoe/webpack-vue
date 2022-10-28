@@ -30,6 +30,6 @@ export default {
 
 <style lang="less" scoped>
 .app{
-  background-color: pink;
+  // background-color: pink;
 }
 </style>

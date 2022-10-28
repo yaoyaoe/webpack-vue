@@ -1,4 +1,4 @@
-import {createRouter,createWebHashHistory}  from 'vue-router'
+import {createRouter,createWebHashHistory,createWebHistory}  from 'vue-router'
 import Home from '../module/Home.vue'
 const routes=[
   {
@@ -20,5 +20,5 @@ const routes=[
 
 export default createRouter({
   routes,
-  history:createWebHashHistory()
+  history:createWebHistory()
 })
